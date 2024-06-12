@@ -1,38 +1,23 @@
-<p align="center"><img src="https://i.imgur.com/X7dSE68.png"></p>
+
 
 ## Usage
-
-### Create an App
-
-```
-# with npx
-$ npx create-nextron-app my-app --example basic-lang-javascript
-
-# with yarn
-$ yarn create nextron-app my-app --example basic-lang-javascript
-
-# with pnpm
-$ pnpm dlx create-nextron-app my-app --example basic-lang-javascript
-```
-
-### Install Dependencies
-
-```
-$ cd my-app
-
-# using yarn or npm
-$ yarn (or `npm install`)
-
-# using pnpm
-$ pnpm install --shamefully-hoist
-```
+An app for use with 2NipSolo
+they are a controle bouton sync with state of the switch and a button for open door, when a people call in, they a re a notification popup with sound
 
 ### Use it
 
 ```
+# for match ip edit config.js in lib folder
+$// lib/config.js
+$const config = {
+$  ipAddress: '192.168.2.5'
+$};
+
+export default config;
+
 # development mode
-$ yarn dev (or `npm run dev` or `pnpm run dev`)
+$ npm run dev
 
 # production build
-$ yarn build (or `npm run build` or `pnpm run build`)
+$ npm run build:win64
 ```
