@@ -1,6 +1,6 @@
-appId: com.vivalink.vvlkIpeyes
-productName: VVLK IPEYES
-copyright: Copyright © 2024 Vivalink
+appId: com.devlow.devlowIpeyes
+productName: DevLow IPEYES
+copyright: Copyright © 2024 DevLow
 directories:
   output: dist
   buildResources: resources
